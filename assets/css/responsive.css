@@ -1,0 +1,114 @@
+/* MOBILE */
+@media (max-width: 46.25em){
+    #nav {
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav .subnav li:hover a, 
+    #nav > li:hover > a{
+        background-color: black;
+        color: white;
+    }
+
+    #nav .subnav {
+        position: unset;
+        background-color: rgb(34, 34, 34);
+    }
+
+    #nav .subnav a {
+        padding: 12px 24px;
+        color: white;
+    }
+    
+    #header{
+        overflow: hidden;
+    }
+    #header .nav-search-icon{
+        display: none;
+    }
+
+    #header .nav-menu-icon{
+        display: block;
+    }
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-full-width{
+        width: 100%;
+    }
+
+    .s-mt-16{
+        margin-top: 16px;
+    }
+
+    .s-mt-32{
+        margin-top: 32px;
+    }
+
+    .contact-input-text-email {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
+
+
+/* TABLET */
+@media (min-width: 46.3125em) and (max-width: 64em){
+    .m-full-width{
+        width: 100%;
+    }
+    
+    .contact-input-text-email {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    
+}
+
+/* PC */
+@media (min-width: 1064.0625em){
+    .contact-to{
+        line-height: 1.8;
+    }
+}
+
+/* TABLET & MOBILE */
+@media (max-width: 64em){
+    .place-buy-btn{
+        padding: 16px 16px;;
+    }
+
+    .contact-to {
+        line-height: 2.0;
+    }
+
+    .contact-input-text-name,
+    .contact-input-text-email,
+    .contact-input-text-message{
+        padding: 14px 8px;
+    }
+
+    .contact-send{
+        padding: 16px 18px;
+    }
+
+    #footer .footer-icon {
+        font-size: 30px;
+        padding: 0 8px;
+    }
+
+    #footer .footer-signature a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+    #footer{
+        padding: 40px 0;
+    }
+}
